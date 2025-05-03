@@ -68,6 +68,12 @@ io.on('connection', (socket) => {
   });
 });
 
+const path = require('path');
+app.use(express.static(path.join(__dirname, '../client/build')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+});cd
+
 const port = process.env.PORT || 4000;
 server.listen(port, () => {
   console.log(`✅ Server is running on port ${port}`);
