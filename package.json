@@ -1,0 +1,9 @@
+{
+    "name": "quiz-multiplayer",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "build": "cd client && npm install && npm run build",
+      "start": "node server/index.js"
+    }
+  }
