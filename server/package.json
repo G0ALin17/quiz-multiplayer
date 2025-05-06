@@ -1,16 +1,16 @@
 {
   "name": "quiz-multiplayer-backend",
   "version": "1.0.0",
+  "description": "Multiplayer quiz backend using Express and Socket.IO",
   "main": "index.js",
-  "engines": {
-    "node": "18.x"
-  },
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  },
+  "author": "Your Name",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
